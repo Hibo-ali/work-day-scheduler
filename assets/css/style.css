@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Trirong:wght@100;200&display=swap');
+
+
+body {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+textarea{
+  background-color: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 15px;
+}
+
+.jumbotron {
+
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+.description{
+  white-space: pre-wrap;
+}
+
+.display {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.time-block{
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;;
+}
+
+.row .hour {
+  padding-top: 20px;
+}
+
+.hour {
+  background-color: #FF7A63;
+  color: black;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-top: 1px dashed #000000;
+}
+
+.past {
+  background-color: #FF7A63;
+  font-style: italic;
+  color: white;
+  text-transform: capitalize;
+}
+
+.present {
+  background-color: #46da46;
+  color: white;
+  text-transform: capitalize;
+}
+
+.hour .present {
+  background-color: #46da46;
+}
+
+.future {
+  background-color: #46da46;
+  text-transform: capitalize;
+}
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #4ea8fc;
+  color: #000000;
+}
+
+.saveBtn:hover {
+  background-color: #69b2f7;
+  font-size: 14px;
+  transition: .3s ease-in-out;
+}
