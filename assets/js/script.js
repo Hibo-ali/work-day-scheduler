@@ -9,3 +9,20 @@ $(document).ready(function () {
       now24 = 13;
         now12 = 1;
     }
+
+// current date
+const todaysDate = $('#currentDay');
+todaysDate.text(today);
+
+var calender = new Date(); //  date and time
+var currentHour = calender.getHours(); // returns 0-23 on a 24 hour clock
+
+for (var i = 9; i < 22; i++) {
+    if (i < currentHour) {
+        document.getElementById(i.toString()).classList.add('past');
+    } else if (i === currentHour) {
+        document.getElementById(i.toString()).classList.add('present');
+    } else if (i > currentHour) {
+        document.getElementById(i.toString()).classList.add('future');
+    }
+} 
