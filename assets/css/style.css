@@ -51,7 +51,7 @@ textarea{
 }
 
 .hour {
-  background-color: #FF7A63;
+  background-color: #ffffff;
   color: black;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
@@ -59,7 +59,7 @@ textarea{
 }
 
 .past {
-  background-color: #FF7A63;
+  background-color: #d3d3d3;
   font-style: italic;
   color: white;
   text-transform: capitalize;
@@ -74,6 +74,8 @@ textarea{
 .hour .present {
   background-color: #46da46;
 }
+
+
 
 .future {
   background-color: #46da46;
